@@ -16,7 +16,11 @@ const TodoList: FC = () => {
           <div className={styles.todoGrid}>
             {todos.map((todo, index) => {
               return (
-                <Todo todo={todo} index={index}/>
+                <Todo
+                  key={`${todo.mainTask}${index}`}
+                  todo={todo}
+                  index={index}
+                />
               );
             })}
           </div>
