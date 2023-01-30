@@ -1,0 +1,99 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  width: 60%;
+}
+
+.heroWrapper {
+  gap: 200px;
+}
+
+.heroWrapper > h2 {
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.mainTaskInput {
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subtaskChoice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.subTaskBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.subTaskInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subTaskInput {
+  width: 70%;
+}
+
+.subTaskAddButton {
+  width: 25%;
+  padding: 17px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #9f6df4;
+  border: 1px solid #9f6df4;
+}
+
+.subTaskStrip {
+  background-color: rgba(128, 128, 128, 0.269);
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subTaskStrip > button {
+  color: rgb(255, 95, 95);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.subTasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 260px;
+  overflow: scroll;
+}
+
+.addButton {
+  background-image: linear-gradient(
+    140deg,
+    #7959a8 1%,
+    #8257cd 50%,
+    #9f6df4 50%
+  );
+  padding: 10px;
+  width: 35%;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}

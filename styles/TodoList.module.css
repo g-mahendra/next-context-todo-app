@@ -1,0 +1,13 @@
+.todoGrid {
+  display: FLEX;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todoListContainer {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+}

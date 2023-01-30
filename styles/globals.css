@@ -1,0 +1,38 @@
+body {
+  background-color: #11141b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  outline: none;
+  border: 1px solid #424b63;
+  padding: 20px 10px;
+  background-color: transparent;
+  color: white;
+}
+
+button {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(167, 167, 167);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
